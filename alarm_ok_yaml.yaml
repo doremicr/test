@@ -1,0 +1,578 @@
+- url:
+    - http://192.168.181.182:8080/alarmTemplate/59
+    - http://192.168.181.182:8080/alarmTemplate/9
+    - http://192.168.181.182:8080/alarmTemplate/atrhgjh
+    - http://192.168.181.182:8080/alarmTemplate/59t
+    - http://192.168.181.182:8080/alarmTemplate/
+    - http://192.168.181.182:8080/alarmTemplate/null
+    - http://192.168.181.182:8080/alarmTemplate/59
+
+  method: get
+  return:
+      code:
+          value: 200
+      message:
+          type: str
+          value: 'OK'
+          len: 2
+      payload:
+           id:
+              value: 59
+              type: int
+           name:
+              len: 6
+              regular: '[a-z]{4}[0-9]{2}'
+           cpuThreshold:
+              type: int
+           memThreshold:
+              type: int
+           qpsThreshold:
+              type: int
+           expand:
+              type: int
+           flag:
+              type: int
+           removed:
+              type: int
+           createTime:
+              type: int
+
+- url:
+    - http://192.168.181.182:8080/alarmTemplate/59?page=1&per_page=10&sortby=build_id&order=desc
+    - http://192.168.181.182:8080/alarmTemplate/9?page=1&per_page=10&sortby=build_id&order=desc
+    - http://192.168.181.182:8080/alarmTemplate/59huhu?page=1&per_page=10&sortby=build_id&order=desc
+    - http://192.168.181.182:8080/alarmTemplate/null?page=1&per_page=10&sortby=build_id&order=desc
+    - http://192.168.181.182:8080/alarmTemplate/jhjh?page=1&per_page=10&sortby=build_id&order=desc
+    - http://192.168.181.182:8080/alarmTemplate/ ?page=1&per_page=10&sortby=build_id&order=desc
+
+    - http://192.168.181.182:8080/alarmTemplate/59?page=1&per_page=10&sortby=build_id&order=desc
+    - http://192.168.181.182:8080/alarmTemplate/59?page=200000&per_page=10&sortby=build_id&order=desc
+    - http://192.168.181.182:8080/alarmTemplate/59?page=stringen&per_page=10&sortby=build_id&order=desc
+    - http://192.168.181.182:8080/alarmTemplate/59?page=1hdhjs&per_page=10&sortby=build_id&order=desc
+    - http://192.168.181.182:8080/alarmTemplate/59?page=  &per_page=10&sortby=build_id&order=desc
+    - http://192.168.181.182:8080/alarmTemplate/59?page=null&per_page=10&sortby=build_id&order=desc
+
+    - http://192.168.181.182:8080/alarmTemplate/59?page=1&per_page=10&sortby=build_id&order=desc
+    - http://192.168.181.182:8080/alarmTemplate/59?page=1&per_page=379&sortby=build_id&order=desc
+    - http://192.168.181.182:8080/alarmTemplate/59?page=1&per_page=hhjj&sortby=build_id&order=desc
+    - http://192.168.181.182:8080/alarmTemplate/59?page=1&per_page=10hkjk&sortby=build_id&order=desc
+    - http://192.168.181.182:8080/alarmTemplate/59?page=1&per_page=  &sortby=build_id&order=desc
+    - http://192.168.181.182:8080/alarmTemplate/59?page=1&per_page=null&sortby=build_id&order=desc
+
+    - http://192.168.181.182:8080/alarmTemplate/59?page=1&per_page=10&sortby=build_id&order=desc
+    - http://192.168.181.182:8080/alarmTemplate/59?page=1&per_page=10&sortby=778&order=desc
+    - http://192.168.181.182:8080/alarmTemplate/59?page=1&per_page=10&sortby=build_id45335&order=desc
+    - http://192.168.181.182:8080/alarmTemplate/59?page=1&per_page=10&sortby=jhhk&order=desc
+    - http://192.168.181.182:8080/alarmTemplate/59?page=1&per_page=10&sortby=  &order=desc
+    - http://192.168.181.182:8080/alarmTemplate/59?page=1&per_page=10&sortby=null&order=desc
+
+    - http://192.168.181.182:8080/alarmTemplate/59?page=1&per_page=10&sortby=build_id&order=desc
+    - http://192.168.181.182:8080/alarmTemplate/59?page=1&per_page=10&sortby=build_id&order=kkkk
+    - http://192.168.181.182:8080/alarmTemplate/59?page=1&per_page=10&sortby=build_id&order=10
+    - http://192.168.181.182:8080/alarmTemplate/59?page=1&per_page=10&sortby=build_id&order=10hjk
+    - http://192.168.181.182:8080/alarmTemplate/59?page=1&per_page=10&sortby=build_id&order=
+    - http://192.168.181.182:8080/alarmTemplate/59?page=1&per_page=10&sortby=build_id&order=null
+
+
+  method: get
+  return:
+      code:
+          value: 200
+      message:
+          type: str
+          value: 'OK'
+          len: 2
+      payload:
+           id:
+              value: 59
+              type: int
+           name:
+              len: 6
+              regular: '[a-z]{4}[0-9]{2}'
+           cpuThreshold:
+              type: int
+           memThreshold:
+              type: int
+           qpsThreshold:
+              type: int
+           expand:
+              type: int
+           flag:
+              type: int
+           removed:
+              type: int
+           createTime:
+              type: int
+
+- url:
+    http://192.168.181.182:8080/alarmTemplate
+  method: post
+  data:
+      - name: "test10"
+        cpuThreadhold: 90
+        memThreshold: 80
+        apsThreshold: 80
+        mallAlarm: "bin12@changhong.com"
+        expand: 2
+        flag: 3
+        authority:
+            user: 59
+
+      - name: "gjkk122"
+        cpuThreadhold: 90
+        memThreshold: 80
+        apsThreshold: 80
+        mallAlarm: "bin12@changhong.com"
+        expand: 2
+        flag: 3
+        authority:
+            user: 59
+
+      - name: "344"
+        cpuThreadhold: 90
+        memThreshold: 80
+        apsThreshold: 80
+        mallAlarm: "bin12@changhong.com"
+        expand: 2
+        flag: 3
+        authority:
+            user: 59
+
+      - name: "  "
+        cpuThreadhold: 90
+        memThreshold: 80
+        apsThreshold: 80
+        mallAlarm: "bin12@changhong.com"
+        expand: 2
+        flag: 3
+        authority:
+            user: 59
+
+      - name: "null"
+        cpuThreadhold: 90
+        memThreshold: 80
+        apsThreshold: 80
+        mallAlarm: "bin12@changhong.com"
+        expand: 2
+        flag: 3
+        authority:
+            user: 59
+
+      - name: "test10"
+        cpuThreadhold: 100
+        memThreshold: 80
+        apsThreshold: 80
+        mallAlarm: "bin12@changhong.com"
+        expand: 2
+        flag: 3
+        authority:
+            user: 59
+
+      - name: "test10"
+        cpuThreadhold: sfdggf
+        memThreshold: 80
+        apsThreshold: 80
+        mallAlarm: "bin12@changhong.com"
+        expand: 2
+        flag: 3
+        authority:
+            user: 59
+
+      - name: "test10"
+        cpuThreadhold: hgjh199
+        memThreshold: 80
+        apsThreshold: 80
+        mallAlarm: "bin12@changhong.com"
+        expand: 2
+        flag: 3
+        authority:
+            user: 59
+
+      - name: "test10"
+        cpuThreadhold:
+        memThreshold: 80
+        apsThreshold: 80
+        mallAlarm: "bin12@changhong.com"
+        expand: 2
+        flag: 3
+        authority:
+            user: 59
+
+      - name: "test10"
+        cpuThreadhold: null
+        memThreshold: 80
+        apsThreshold: 80
+        mallAlarm: "bin12@changhong.com"
+        expand: 2
+        flag: 3
+        authority:
+            user: 59
+
+      - name: "test10"
+        cpuThreadhold: 90
+        memThreshold: 80
+        apsThreshold: 000
+        mallAlarm: "bin12@changhong.com"
+        expand: 2
+        flag: 3
+        authority:
+            user: 59
+
+      - name: "test10"
+        cpuThreadhold: 90
+        memThreshold: 80
+        apsThreshold: hgjhjk
+        mallAlarm: "bin12@changhong.com"
+        expand: 2
+        flag: 3
+        authority:
+            user: 59
+
+      - name: "test10"
+        cpuThreadhold: 90
+        memThreshold: 80
+        apsThreshold: jhjhj900
+        mallAlarm: "bin12@changhong.com"
+        expand: 2
+        flag: 3
+        authority:
+            user: 59
+
+      - name: "test10"
+        cpuThreadhold: 90
+        memThreshold: 80
+        apsThreshold:
+        mallAlarm: "bin12@changhong.com"
+        expand: 2
+        flag: 3
+        authority:
+            user: 59
+
+      - name: "test10"
+        cpuThreadhold: 90
+        memThreshold: 80
+        apsThreshold: null
+        mallAlarm: "bin12@changhong.com"
+        expand: 2
+        flag: 3
+        authority:
+            user: 59
+
+      - name: "test10"
+        cpuThreadhold: 90
+        memThreshold: 80
+        apsThreshold: 80
+        mallAlarm: "rui1.chen@changhong.com"
+        expand: 2
+        flag: 3
+        authority:
+            user: 59
+
+      - name: "test10"
+        cpuThreadhold: 90
+        memThreshold: 80
+        apsThreshold: 80
+        mallAlarm: "122"
+        expand: 2
+        flag: 3
+        authority:
+            user: 59
+
+      - name: "test10"
+        cpuThreadhold: 90
+        memThreshold: 80
+        apsThreshold: 80
+        mallAlarm: "bin12"
+        expand: 2
+        flag: 3
+        authority:
+            user: 59
+
+      - name: "test10"
+        cpuThreadhold: 90
+        memThreshold: 80
+        apsThreshold: 80
+        mallAlarm: "  "
+        expand: 2
+        flag: 3
+        authority:
+            user: 59
+
+      - name: "test10"
+        cpuThreadhold: 90
+        memThreshold: 80
+        apsThreshold: 80
+        mallAlarm: "null"
+        expand: 2
+        flag: 3
+        authority:
+            user: 59
+
+      - name: "test10"
+        cpuThreadhold: 90
+        memThreshold: 80
+        apsThreshold: 80
+        mallAlarm: "bin12@changhong.com"
+        expand: 100
+        flag: 3
+        authority:
+            user: 59
+
+      - name: "test10"
+        cpuThreadhold: 90
+        memThreshold: 80
+        apsThreshold: 80
+        mallAlarm: "bin12@changhong.com"
+        expand: hdhj
+        flag: 3
+        authority:
+            user: 59
+
+      - name: "test10"
+        cpuThreadhold: 90
+        memThreshold: 80
+        apsThreshold: 80
+        mallAlarm: "bin12@changhong.com"
+        expand: hjh122
+        flag: 3
+        authority:
+            user: 59
+
+      - name: "test10"
+        cpuThreadhold: 90
+        memThreshold: 80
+        apsThreshold: 80
+        mallAlarm: "bin12@changhong.com"
+        expand:
+        flag: 3
+        authority:
+            user: 59
+
+      - name: "test10"
+        cpuThreadhold: 90
+        memThreshold: 80
+        apsThreshold: 80
+        mallAlarm: "bin12@changhong.com"
+        expand: null
+        flag: 3
+        authority:
+            user: 59
+
+      - name: "test10"
+        cpuThreadhold: 90
+        memThreshold: 80
+        apsThreshold: 80
+        mallAlarm: "bin12@changhong.com"
+        expand: 2
+        flag: 181826
+        authority:
+            user: 59
+
+      - name: "test10"
+        cpuThreadhold: 90
+        memThreshold: 80
+        apsThreshold: 80
+        mallAlarm: "bin12@changhong.com"
+        expand: 2
+        flag: hgj
+        authority:
+            user: 59
+
+      - name: "test10"
+        cpuThreadhold: 90
+        memThreshold: 80
+        apsThreshold: 80
+        mallAlarm: "bin12@changhong.com"
+        expand: 2
+        flag: hhhj344
+        authority:
+            user: 59
+
+      - name: "test10"
+        cpuThreadhold: 90
+        memThreshold: 80
+        apsThreshold: 80
+        mallAlarm: "bin12@changhong.com"
+        expand: 2
+        flag:
+        authority:
+            user: 59
+
+      - name: "test10"
+        cpuThreadhold: 90
+        memThreshold: 80
+        apsThreshold: 80
+        mallAlarm: "bin12@changhong.com"
+        expand: 2
+        flag: null
+        authority:
+            user: 59
+
+      - name: "test10"
+        cpuThreadhold: 90
+        memThreshold: 80
+        apsThreshold: 80
+        mallAlarm: "bin12@changhong.com"
+        expand: 2
+        flag: 3
+        authority:
+            user: 199
+
+      - name: "test10"
+        cpuThreadhold: 90
+        memThreshold: 80
+        apsThreshold: 80
+        mallAlarm: "bin12@changhong.com"
+        expand: 2
+        flag: 3
+        authority:
+            user: jhj
+
+      - name: "test10"
+        cpuThreadhold: 90
+        memThreshold: 80
+        apsThreshold: 80
+        mallAlarm: "bin12@changhong.com"
+        expand: 2
+        flag: 3
+        authority:
+            user: hgjhj100
+
+      - name: "test10"
+        cpuThreadhold: 90
+        memThreshold: 80
+        apsThreshold: 80
+        mallAlarm: "bin12@changhong.com"
+        expand: 2
+        flag: 3
+        authority:
+            user:
+
+      - name: "test10"
+        cpuThreadhold: 90
+        memThreshold: 80
+        apsThreshold: 80
+        mallAlarm: "bin12@changhong.com"
+        expand: 2
+        flag: 3
+        authority:
+            user: null
+
+  headers:
+        Content-Type: application/json
+
+
+  return:
+      code:
+          value: 201
+          type: int
+      message:
+          type: string
+          len: 7
+      payload:
+          type: bool
+
+- url:
+    - http://192.168.181.182:8080/alarmTemplate/user/59/search/test
+
+    - http://192.168.181.182:8080/alarmTemplate/user/59999/search/test
+    - http://192.168.181.182:8080/alarmTemplate/user/  /search/test
+    - http://192.168.181.182:8080/alarmTemplate/user/null/search/test
+    - http://192.168.181.182:8080/alarmTemplate/user/jjkkk/search/test
+    - http://192.168.181.182:8080/alarmTemplate/user/jjjkk888/search/test
+
+    - http://192.168.181.182:8080/alarmTemplate/user/59/search/testuhuiu
+    - http://192.168.181.182:8080/alarmTemplate/user/59/search/null
+    - http://192.168.181.182:8080/alarmTemplate/user/59/search/
+    - http://192.168.181.182:8080/alarmTemplate/user/59/search/hjh787887
+    - http://192.168.181.182:8080/alarmTemplate/user/59/search/1900
+
+  method: get
+  return:
+      code:
+          value: 200
+      message:
+          type: str
+          value: 'OK'
+          len: 2
+      payload:
+          pageNum:
+              type: int
+          pageSize:
+              type: int
+          list:
+             - cpuThreshold:
+                  type: int
+               memThreshold:
+                  type: int
+               qpsThreshold:
+                  type: int
+               expand:
+                  type: int
+               flag:
+                  type: int
+               removed:
+                  type: int
+               createTime:
+                  type: int
+
+- url:
+    - http://192.168.181.182:8080/alarmTemplate/user/59/allTemplateName
+    - http://192.168.181.182:8080/alarmTemplate/user/5/allTemplateName
+    - http://192.168.181.182:8080/alarmTemplate/user/fhdsgh/allTemplateName
+    - http://192.168.181.182:8080/alarmTemplate/user/dgsfg59/allTemplateName
+    - http://192.168.181.182:8080/alarmTemplate/user/  /allTemplateName
+    - http://192.168.181.182:8080/alarmTemplate/user/null/allTemplateName
+
+  method: get
+  return:
+      code:
+          value: 200
+      message:
+          type: str
+          value: 'OK'
+          len: 2
+      payload:
+          type: list
+
+- url:
+    - http://192.168.181.182:8080/alarmTemplate/name/exists/"test"
+    - http://192.168.181.182:8080/alarmTemplate/name/exists/"hgjhjj"
+    - http://192.168.181.182:8080/alarmTemplate/name/exists/"59"
+    - http://192.168.181.182:8080/alarmTemplate/name/exists/"  "
+    - http://192.168.181.182:8080/alarmTemplate/name/exists/"null"
+
+  method: get
+  return:
+      code:
+          value: 200
+      message:
+          type: str
+          value: 'OK'
+          len: 2
+      payload:
+          type: bool
+
+- url:
+    - http://192.168.181.182:8080/metric/MEM/containerId/97cbbd9f-e11f-4573-a6c1-e6a2a2316d25
+    - http://192.168.181.182:8080/metric/dfs/containerId/97cbbd9f-e11f-4573-a6c1-e6a2a2316d25
+    - http://192.168.181.182:8080/metric/  /containerId/97cbbd9f-e11f-4573-a6c1-e6a2a2316d25
+    - http://192.168.181.182:8080/metric/null/containerId/97cbbd9f-e11f-4573-a6c1-e6a2a2316d25
+    - http://192.168.181.182:8080/metric/898/containerId/97cbbd9f-e11f-4573-a6c1-e6a2a2316d25
+
+    - http://192.168.181.182:8080/metric/MEM/containerId/97cbbd9f-e11f-4573-a6c1-e6a2a2316d25
+    - http://192.168.181.182:8080/metric/MEM/containerId/67879
+    - http://192.168.181.182:8080/metric/MEM/containerId/hjkjk
+    - http://192.168.181.182:8080/metric/MEM/containerId/
+    - http://192.168.181.182:8080/metric/MEM/containerId/null
+
+
+
+  method: get
+  return:
+      code:
+          value: 200
+      message:
+          type: str
+          value: 'OK'
+          len: 2
