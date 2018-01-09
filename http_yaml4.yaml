@@ -1,0 +1,362 @@
+
+- url:
+    http://192.168.181.182:8080/alarmTemplate
+  method: post
+  data:
+      - projectName: "spring-titans"
+        description: "jar test"
+        branch: "dev"
+        gitPath: "http://gitlab.chiqdata.com/c4tman/spring-mvc-hello-world.git"
+        type:
+            typeId: 2
+        buildCmd: "./build.sh"
+        buildType: "PUBLIC"
+        dockerFile:
+            dockerFileId: "2"
+        authority:
+            userId: 59
+
+      - projectName: "springhjk"
+        description: "jar test"
+        branch: "dev"
+        gitPath: "http://gitlab.chiqdata.com/c4tman/spring-mvc-hello-world.git"
+        type:
+            typeId: 2
+        buildCmd: "./build.sh"
+        buildType: "PUBLIC"
+        dockerFile:
+            dockerFileId: "2"
+        authority:
+            userId: 59
+
+      - projectName: 678
+        description: "jar test"
+        branch: "dev"
+        gitPath: "http://gitlab.chiqdata.com/c4tman/spring-mvc-hello-world.git"
+        type:
+            typeId: 2
+        buildCmd: "./build.sh"
+        buildType: "PUBLIC"
+        dockerFile:
+            dockerFileId: "2"
+        authority:
+            userId: 59
+
+      - projectName: "spring"465
+        description: "jar test"
+        branch: "dev"
+        gitPath: "http://gitlab.chiqdata.com/c4tman/spring-mvc-hello-world.git"
+        type:
+            typeId: 2
+        buildCmd: "./build.sh"
+        buildType: "PUBLIC"
+        dockerFile:
+            dockerFileId: "2"
+        authority:
+            userId: 59
+
+      - projectName: "  "
+        description: "jar test"
+        branch: "dev"
+        gitPath: "http://gitlab.chiqdata.com/c4tman/spring-mvc-hello-world.git"
+        type:
+            typeId: 2
+        buildCmd: "./build.sh"
+        buildType: "PUBLIC"
+        dockerFile:
+            dockerFileId: "2"
+        authority:
+            userId: 59
+
+      - projectName: "spring-titans"
+        description: "jar test"
+        branch: "dev"
+        gitPath: "http://gitlab.chiqdata.com/c4tman/spring-mvc-hello-world.git"
+        type:
+            typeId: 2
+        buildCmd: "./build.sh"
+        buildType: "PUBLIC"
+        dockerFile:
+            dockerFileId: "2"
+        authority:
+            userId: 59
+
+      - projectName: "spring-titans"
+        description: "jar test"25345
+        branch: "dev"
+        gitPath: "http://gitlab.chiqdata.com/c4tman/spring-mvc-hello-world.git"
+        type:
+            typeId: 2
+        buildCmd: "./build.sh"
+        buildType: "PUBLIC"
+        dockerFile:
+            dockerFileId: "2"
+        authority:
+            userId: 59
+
+      - projectName: "spring-titans"
+        description: "  "
+        branch: "dev"
+        gitPath: "http://gitlab.chiqdata.com/c4tman/spring-mvc-hello-world.git"
+        type:
+            typeId: 2
+        buildCmd: "./build.sh"
+        buildType: "PUBLIC"
+        dockerFile:
+            dockerFileId: "2"
+        authority:
+            userId: 59
+
+      - projectName: "spring-titans"
+        description: "null"
+        branch: "dev"
+        gitPath: "http://gitlab.chiqdata.com/c4tman/spring-mvc-hello-world.git"
+        type:
+            typeId: 2
+        buildCmd: "./build.sh"
+        buildType: "PUBLIC"
+        dockerFile:
+            dockerFileId: "2"
+        authority:
+            userId: 59
+
+      - projectName: "spring-titans"
+        description: "hjjk"
+        branch: "dev"
+        gitPath: "http://gitlab.chiqdata.com/c4tman/spring-mvc-hello-world.git"
+        type:
+            typeId: 2
+        buildCmd: "./build.sh"
+        buildType: "PUBLIC"
+        dockerFile:
+            dockerFileId: "2"
+        authority:
+            userId: 59
+
+      - projectName: "spring-titans"
+        description: "1234"
+        branch: "dev"
+        gitPath: "http://gitlab.chiqdata.com/c4tman/spring-mvc-hello-world.git"
+        type:
+            typeId: 2
+        buildCmd: "./build.sh"
+        buildType: "PUBLIC"
+        dockerFile:
+            dockerFileId: "2"
+        authority:
+            userId: 59
+
+      - projectName: "spring-titans"
+        description: "jar test"
+        branch: "hjhjhj"
+        gitPath: "http://gitlab.chiqdata.com/c4tman/spring-mvc-hello-world.git"
+        type:
+            typeId: 2
+        buildCmd: "./build.sh"
+        buildType: "PUBLIC"
+        dockerFile:
+            dockerFileId: "2"
+        authority:
+            userId: 59
+
+      - projectName: "spring-titans"
+        description: "jar test"
+        branch: "32143"
+        gitPath: "http://gitlab.chiqdata.com/c4tman/spring-mvc-hello-world.git"
+        type:
+            typeId: 2
+        buildCmd: "./build.sh"
+        buildType: "PUBLIC"
+        dockerFile:
+            dockerFileId: "2"
+        authority:
+            userId: 59
+
+      - projectName: "spring-titans"
+        description: "jar test"
+        branch: "dev12321"
+        gitPath: "http://gitlab.chiqdata.com/c4tman/spring-mvc-hello-world.git"
+        type:
+            typeId: 2
+        buildCmd: "./build.sh"
+        buildType: "PUBLIC"
+        dockerFile:
+            dockerFileId: "2"
+        authority:
+            userId: 59
+
+      - projectName: "spring-titans"
+        description: "jar test"
+        branch: "  "
+        gitPath: "http://gitlab.chiqdata.com/c4tman/spring-mvc-hello-world.git"
+        type:
+            typeId: 2
+        buildCmd: "./build.sh"
+        buildType: "PUBLIC"
+        dockerFile:
+            dockerFileId: "2"
+        authority:
+            userId: 59
+
+      - projectName: "spring-titans"
+        description: "jar test"
+        branch: "null"
+        gitPath: "http://gitlab.chiqdata.com/c4tman/spring-mvc-hello-world.git"
+        type:
+            typeId: 2
+        buildCmd: "./build.sh"
+        buildType: "PUBLIC"
+        dockerFile:
+            dockerFileId: "2"
+        authority:
+            userId: 59
+
+      - projectName: "spring-titans"
+        description: "jar test"
+        branch: "dev"
+        gitPath: "http://gitlab.chiqdata.com/c4tman/spring-mvc-hello-world.gitdfgadgfggafdgsfgagda"
+        type:
+            typeId: 2
+        buildCmd: "./build.sh"
+        buildType: "PUBLIC"
+        dockerFile:
+            dockerFileId: "2"
+        authority:
+            userId: 59
+
+      - projectName: "spring-titans"
+        description: "jar test"
+        branch: "dev"
+        gitPath: "35245"
+        type:
+            typeId: 2
+        buildCmd: "./build.sh"
+        buildType: "PUBLIC"
+        dockerFile:
+            dockerFileId: "2"
+        authority:
+            userId: 59
+
+      - projectName: "spring-titans"
+        description: "jar test"
+        branch: "dev"
+        gitPath: "  "
+        type:
+            typeId: 2
+        buildCmd: "./build.sh"
+        buildType: "PUBLIC"
+        dockerFile:
+            dockerFileId: "2"
+        authority:
+            userId: 59
+
+      - projectName: "spring-titans"
+        description: "jar test"
+        branch: "dev"
+        gitPath: "null"
+        type:
+            typeId: 2
+        buildCmd: "./build.sh"
+        buildType: "PUBLIC"
+        dockerFile:
+            dockerFileId: "2"
+        authority:
+            userId: 59
+
+      - projectName: "spring-titans"
+        description: "jar test"
+        branch: "dev"
+        gitPath: "jhjhkj3542454"
+        type:
+            typeId: 2
+        buildCmd: "./build.sh"
+        buildType: "PUBLIC"
+        dockerFile:
+            dockerFileId: "2"
+        authority:
+            userId: 59
+
+      - projectName: "spring-titans"
+        description: "jar test"
+        branch: "dev"
+        gitPath: "http://gitlab.chiqdata.com/c4tman/spring-mvc-hello-world.git"
+        type:
+            typeId: 2567
+        buildCmd: "./build.sh"
+        buildType: "PUBLIC"
+        dockerFile:
+            dockerFileId: "2"
+        authority:
+            userId: 59
+
+      - projectName: "spring-titans"
+        description: "jar test"
+        branch: "dev"
+        gitPath: "http://gitlab.chiqdata.com/c4tman/spring-mvc-hello-world.git"
+        type:
+            typeId:
+        buildCmd: "./build.sh"
+        buildType: "PUBLIC"
+        dockerFile:
+            dockerFileId: "2"
+        authority:
+            userId: 59
+
+      - projectName: "spring-titans"
+        description: "jar test"
+        branch: "dev"
+        gitPath: "http://gitlab.chiqdata.com/c4tman/spring-mvc-hello-world.git"
+        type:
+            typeId: null
+        buildCmd: "./build.sh"
+        buildType: "PUBLIC"
+        dockerFile:
+            dockerFileId: "2"
+        authority:
+            userId: 59
+
+      - projectName: "spring-titans"
+        description: "jar test"
+        branch: "dev"
+        gitPath: "http://gitlab.chiqdata.com/c4tman/spring-mvc-hello-world.git"
+        type:
+            typeId: hgjh
+        buildCmd: "./build.sh"
+        buildType: "PUBLIC"
+        dockerFile:
+            dockerFileId: "2"
+        authority:
+            userId: 59
+
+      - projectName: "spring-titans"
+        description: "jar test"
+        branch: "dev"
+        gitPath: "http://gitlab.chiqdata.com/c4tman/spring-mvc-hello-world.git"
+        type:
+            typeId: 2hjjkkk
+        buildCmd: "./build.sh"
+        buildType: "PUBLIC"
+        dockerFile:
+            dockerFileId: "2"
+        authority:
+            userId: 59
+
+
+
+
+  headers:
+        Content-Type: application/json
+
+
+  return:
+      code:
+          value: 201
+          type: int
+      message:
+          type: string
+          len: 7
+      payload:
+          type: bool
+
+
+
