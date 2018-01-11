@@ -1,0 +1,14 @@
+*** Settings ***
+Library           RequestsLibrary
+Library           requests
+Library           Collections
+Library           String
+Library           OperatingSystem
+
+*** Test Cases ***
+first
+    Create Session    github    https://api.github.com    #创建session，为session指定别名
+    ${resp}=    Get Request    github    /users/bulkan
+    Should Be Equal As Strings    ${resp.status_code}    200    #断言，响应码200
+    Dictionary Should Contain Value    ${resp.json()}    Bulkan Evcimen
+    Dictionary Should Contain Value    ${resp.json()}    bulkan
