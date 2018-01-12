@@ -1,0 +1,41 @@
+*** Settings ***
+Library           requests
+Library           Collections
+Library           String
+Library           OperatingSystem
+
+*** Test Cases ***
+demo
+    Create Session    wangzhi    https://api.github.com    #创建session，给session指定别名
+    ${resp}=    Get Request    wangzhi    /users/bulkan    #通过该session链接的地址，访问相对路径／users/bulkan,
+    Should Be Equal As Strings    ${resp.status_code}    200    #断言，响应码200
+    Dictionary Should Contain Value    ${resp.json()}    Bulkan Evcimen    #断言，响应json包含指定用户名
+    Dictionary Should Contain Key    ${resp.json()}    public_gists
+
+third
+    Create Session    wangzhi    https://api.github.com    #创建session，给session指定别名
+    ${resp}=    Get Request    wangzhi    /users/bulkan    #通过该session链接的地址，访问相对路径／users/bulkan,
+    Should Be Equal As Strings    ${resp.status_code}    200    #断言，响应码200
+    Dictionary Should Contain Value    ${resp.json()}    Bulkan Evcimen    #断言，响应json包含指定用户名
+    Dictionary Should Contain Key    ${resp.json()}    public_gists
+
+demo1
+    Create Session    wangzhi    https://api.github.com    #创建session，给session指定别名
+    ${resp}=    Get Request    wangzhi    /users/bulkan    #通过该session链接的地址，访问相对路径／users/bulkan,
+    Should Be Equal As Strings    ${resp.status_code}    200    #断言，响应码200
+    Dictionary Should Contain Value    ${resp.json()}    Bulkan Evcimen    #断言，响应json包含指定用户名
+    Dictionary Should Contain Key    ${resp.json()}    public_gists
+
+demo2
+    Create Session    wangzhi    https://api.github.com    #创建session，给session指定别名
+    ${resp}=    Get Request    wangzhi    /users/bulkan    #通过该session链接的地址，访问相对路径／users/bulkan,
+    Should Be Equal As Strings    ${resp.status_code}    200    #断言，响应码200
+    Dictionary Should Contain Value    ${resp.json()}    Bulkan Evcimen    #断言，响应json包含指定用户名
+    Dictionary Should Contain Key    ${resp.json()}    public_gists2
+
+demo3
+    Create Session    wangzhi    https://api.github.com    #创建session，给session指定别名
+    ${resp}=    Get Request    wangzhi    /users/bulkan    #通过该session链接的地址，访问相对路径／users/bulkan,
+    Should Be Equal As Strings    ${resp.status_code}    200    #断言，响应码200
+    Dictionary Should Contain Value    ${resp.json()}    Bulkan Evcimen    #断言，响应json包含指定用户名
+    Dictionary Should Contain Key    ${resp.json()}    public_gists
